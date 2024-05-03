@@ -1,7 +1,7 @@
 /**
  * Class that defines triangle.
  *
- * @author  Samuel Webster
+ * @author  Ava Venturino
  * @version 1.0
  * @since   2024-01-01
  */

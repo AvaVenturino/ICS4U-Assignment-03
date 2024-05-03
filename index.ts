@@ -1,9 +1,17 @@
+/**
+* Class that defines airplane speed.
+*
+* @author Ava Venturino
+* @version 1.0
+* @since 2024-04-09
+*/
+
 import Triangle from './Triangles'
 
 console.log('')
 
-const testTriangle1 = new Triangle(2, 3, 4)
-console.log('Created a 2 mm by 3 mm by 4 mm triangle.')
+const testTriangle1 = new Triangle(3, 4, 5)
+console.log('Created a 3 mm by 4 mm by 5 mm triangle.')
 console.log(' → Is the triangle valid: ' + testTriangle1.isValid().toString())
 console.log(' → Semiperimeter: ' + testTriangle1.semiPerimeter().toFixed(4) + ' mm')
 console.log(' → Area: ' + testTriangle1.area().toFixed(4) + ' mm²')
@@ -18,8 +26,8 @@ console.log(' → Inner circle radius: ' + testTriangle1.innerCircleRadius().toF
 console.log(' → Circumcircle radius: ' + testTriangle1.circumsicleRadius().toFixed(4) + ' mm')
 console.log('')
 
-const testTriangle2 = new Triangle(2, 2, 2)
-console.log('Created a 2 mm by 2 mm by 2 mm triangle.')
+const testTriangle2 = new Triangle(3, 3, 3)
+console.log('Created a 3 mm by 3 mm by 3 mm triangle.')
 console.log(' → Is the triangle valid: ' + testTriangle2.isValid().toString())
 console.log(' → Semiperimeter: ' + testTriangle2.semiPerimeter().toFixed(4) + ' mm')
 console.log(' → Area: ' + testTriangle2.area().toFixed(4) + ' mm²')
@@ -34,8 +42,8 @@ console.log(' → Inner circle radius: ' + testTriangle2.innerCircleRadius().toF
 console.log(' → Circumcircle radius: ' + testTriangle2.circumsicleRadius().toFixed(4) + ' mm')
 console.log('')
 
-const testTriangle3 = new Triangle(3, 2, 2)
-console.log('Created a 3 mm by 2 mm by 2 mm triangle.')
+const testTriangle3 = new Triangle(3, 4, 4)
+console.log('Created a 3 mm by 4 mm by 4 mm triangle.')
 console.log(' → Is the triangle valid: ' + testTriangle3.isValid().toString())
 console.log(' → Semiperimeter: ' + testTriangle3.semiPerimeter().toFixed(4) + ' mm')
 console.log(' → Area: ' + testTriangle3.area().toFixed(4) + ' mm²')
@@ -50,8 +58,8 @@ console.log(' → Inner circle radius: ' + testTriangle3.innerCircleRadius().toF
 console.log(' → Circumcircle radius: ' + testTriangle3.circumsicleRadius().toFixed(4) + ' mm')
 console.log('')
 
-const testTriangle4 = new Triangle(3, 4, 5)
-console.log('Created a 3 mm by 4 mm by 5 mm triangle.')
+const testTriangle4 = new Triangle(2, 3, 4)
+console.log('Created a 2 mm by 3 mm by 4 mm triangle.')
 console.log(' → Is the triangle valid: ' + testTriangle4.isValid().toString())
 console.log(' → Semiperimeter: ' + testTriangle4.semiPerimeter().toFixed(4) + ' mm')
 console.log(' → Area: ' + testTriangle4.area().toFixed(4) + ' mm²')
@@ -66,8 +74,8 @@ console.log(' → Inner circle radius: ' + testTriangle4.innerCircleRadius().toF
 console.log(' → Circumcircle radius: ' + testTriangle4.circumsicleRadius().toFixed(4) + ' mm')
 console.log('')
 
-const testTriangle5 = new Triangle(18, 5, 8)
-console.log('Created a 18 mm by 5 mm by 8 mm triangle.')
+const testTriangle5 = new Triangle(23, 3, 4)
+console.log('Created a 23 mm by 3 mm by 4 mm triangle.')
 console.log(' → Is the triangle valid: ' + testTriangle5.isValid().toString())
 console.log(' → Semiperimeter: ' + testTriangle5.semiPerimeter().toFixed(4) + ' mm')
 console.log(' → Area: ' + testTriangle5.area().toFixed(4) + ' mm²')
